@@ -1,0 +1,31 @@
+"""
+  api 
+    status
+    forceEventAction
+    history
+
+  main
+    mode 
+      auto
+      away
+      off
+    timeManager
+      Schedule
+
+    actions
+      change
+    elements
+      Lights
+      Water
+      Thermostat
+      Camera
+      Garage
+    elementsRegistry
+      register
+      unregister
+      status
+    history
+      homeLog
+      eventLog
+      phoneLog
+"""
