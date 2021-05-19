@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  db_yael:
+    container_name: db_yael
+    environment:
+      - POSTGRES_PASSWORD=yaelizcool
+    image: postgres:latest

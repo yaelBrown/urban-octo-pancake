@@ -1,0 +1,253 @@
+[
+    {
+        "Id": "3561ba3400592e515b6814dda900d6533f8bd473545c248fce539f3d82db1fcb",
+        "Created": "2021-05-19T03:18:10.2622605Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "postgres"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 45500,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2021-05-19T03:18:11.7742097Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:293e4ed402bacef9f5be149c15b9eb5d60954a043dd2c0551611d562915f807c",
+        "ResolvConfPath": "/var/lib/docker/containers/3561ba3400592e515b6814dda900d6533f8bd473545c248fce539f3d82db1fcb/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/3561ba3400592e515b6814dda900d6533f8bd473545c248fce539f3d82db1fcb/hostname",
+        "HostsPath": "/var/lib/docker/containers/3561ba3400592e515b6814dda900d6533f8bd473545c248fce539f3d82db1fcb/hosts",
+        "LogPath": "/var/lib/docker/containers/3561ba3400592e515b6814dda900d6533f8bd473545c248fce539f3d82db1fcb/3561ba3400592e515b6814dda900d6533f8bd473545c248fce539f3d82db1fcb-json.log",
+        "Name": "/db_yael",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "5d14eb75b2c500e47fdbcde4c3e83822f9faf4594233487afee06ba68d50a956:/var/lib/postgresql/data:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "urban-octo-pancake_yael_house",
+            "PortBindings": {
+                "5432/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "5442"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": [],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "KernelMemory": 0,
+            "KernelMemoryTCP": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/7e2bb91042b61ef654f2b219f2ff697316cd11a56f8b129c5f04e90903a18ec3-init/diff:/var/lib/docker/overlay2/ac8bd22869176dd9c3fa10e0eb67c3ed40679e4e37f0d15e329b9ce43a2d0446/diff:/var/lib/docker/overlay2/8afbdbaf8c9dd26875a84a7baedb8bb79e24d43e4ff5a0bcd6ecd8f86decc60f/diff:/var/lib/docker/overlay2/d96406e5d6366514d33ea86067491da56efe07bc43a810ece14aa3180edf1223/diff:/var/lib/docker/overlay2/815b2533a3154c20668c7cc2868021fd0c855dc212a8c29bfbc80d3f21251689/diff:/var/lib/docker/overlay2/69a22c7dc61b8844219c896d6acea3b13c571b4fe038d93f615c1f51250c46f1/diff:/var/lib/docker/overlay2/cdbe911003d44d07d5f49810240ce1de51db3b8d89455a8fbcb115767a762234/diff:/var/lib/docker/overlay2/aa642d8b72a620f5695cbcb8a15c876af5c278a9cf44dfb8aca09d66408deaa3/diff:/var/lib/docker/overlay2/c79e2d9052e1006279771c58ec6fcff67f89fee3c58273b97f92f770f360c17c/diff:/var/lib/docker/overlay2/d075ee6ac850f7b84ead044c7584f2093ae7048b68b93d51009b923a42a9511d/diff:/var/lib/docker/overlay2/2d75778e9bbbe9636ac9b43d81ce51fc51e7bd4629a37651ca1fbab21c5e3965/diff:/var/lib/docker/overlay2/0389d85d1b722cdc62d53f1930311c6cfdcb4dcdb09d5e77ccd8d0642cd8d1a2/diff:/var/lib/docker/overlay2/2bf1191c387d6e996daaa3358b1a2622148babd27d13b3172c86de3408eaceb2/diff:/var/lib/docker/overlay2/7e3cb6c522de77453fb564855045357eb3a982e8e8b71b5bd655d2331e1d11c0/diff:/var/lib/docker/overlay2/65f02889a7bacc352680a3ba2a3ccff27a7ddd1d73665d3ce16bdf45a511e7f5/diff",
+                "MergedDir": "/var/lib/docker/overlay2/7e2bb91042b61ef654f2b219f2ff697316cd11a56f8b129c5f04e90903a18ec3/merged",
+                "UpperDir": "/var/lib/docker/overlay2/7e2bb91042b61ef654f2b219f2ff697316cd11a56f8b129c5f04e90903a18ec3/diff",
+                "WorkDir": "/var/lib/docker/overlay2/7e2bb91042b61ef654f2b219f2ff697316cd11a56f8b129c5f04e90903a18ec3/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "5d14eb75b2c500e47fdbcde4c3e83822f9faf4594233487afee06ba68d50a956",
+                "Source": "/var/lib/docker/volumes/5d14eb75b2c500e47fdbcde4c3e83822f9faf4594233487afee06ba68d50a956/_data",
+                "Destination": "/var/lib/postgresql/data",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "3561ba340059",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "5432/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "POSTGRES_USER=admin",
+                "POSTGRES_PASSWORD=yaelizcool",
+                "affinity:container==1bf7131cc16b32e306c327699124c7b8deb2b9b6a484094267f3c9abb91418fd",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/13/bin",
+                "GOSU_VERSION=1.12",
+                "LANG=en_US.utf8",
+                "PG_MAJOR=13",
+                "PG_VERSION=13.3-1.pgdg100+1",
+                "PGDATA=/var/lib/postgresql/data"
+            ],
+            "Cmd": [
+                "postgres"
+            ],
+            "Image": "postgres:latest",
+            "Volumes": {
+                "/var/lib/postgresql/data": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "4e5c24e5fb077d498bc7864ba898c1139a914d375c4e9e083388cdd32351516c",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "urban-octo-pancake",
+                "com.docker.compose.project.config_files": "docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/Users/yaelbrown/Projz/urban-octo-pancake",
+                "com.docker.compose.service": "db_yael",
+                "com.docker.compose.version": "1.28.5"
+            },
+            "StopSignal": "SIGINT"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "baa30b722c7bbadc9977271668301afa72602cb0d1d11ebbde0df95472bb1b0d",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "5432/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "5442"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/baa30b722c7b",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "urban-octo-pancake_yael_house": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "3561ba340059",
+                        "db_yael"
+                    ],
+                    "NetworkID": "93ade3f04bffe17c9ab6a59fae84e0bad72ef3d6b96381c0be1b6f5219dc7666",
+                    "EndpointID": "b98b12406dfbe9669a92364a42d7be9cb83929126105259a37bacb4ea2277f62",
+                    "Gateway": "172.21.0.1",
+                    "IPAddress": "172.21.0.3",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:15:00:03",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]

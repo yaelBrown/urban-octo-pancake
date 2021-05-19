@@ -1,0 +1,25 @@
+version: '3.3'
+services:
+  # db_yael:
+  #   container_name: db_yael
+  #   environment:
+  #     - POSTGRES_USER=admin
+  #     - POSTGRES_PASSWORD=yaelizcool
+  #   image: postgres:latest
+  #   ports: 
+  #     - "5442:5432"
+  #   networks: 
+  #     - yael_house
+  pgadmin4: 
+    environment: 
+      - PGADMIN_DEFAULT_EMAIL=y@a.el
+      - PGADMIN_DEFAULT_PASSWORD=yaelyael
+    image: dpage/pgadmin4
+    ports: 
+      - "8889:80"
+    networks: 
+      - yael_house
+networks: 
+  yael_house:
+    driver: bridge
+    
